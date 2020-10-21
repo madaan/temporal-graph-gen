@@ -34,7 +34,7 @@ Where:
 
 
 ## Example
-Input (test.json)
+Input (data/test_input.json)
 ```
 {"text": "Witnesses expected to testify for the defendants included former Attorney General Ramsey Clark and a former Nicaraguan rebel leader , Edgar Chamorro . The university 's vice chancellor , Dennis L. Madson , testified today that as a result of the demonstrations the faculty senate was reviewing the university policy that allowed C.I.A. recruiters on campus . "}
 ```
