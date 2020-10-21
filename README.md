@@ -62,4 +62,4 @@ For example, the following script parses the output graph generated above.
 ```sh
 python src/temporal_graph.py data/test_output.json data/test_out.png
 ```
-![Sample Temporal Graph](data/test_output.png)
+![Sample Temporal Graph ><](data/test_output.png)
