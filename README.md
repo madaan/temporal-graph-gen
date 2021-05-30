@@ -1,6 +1,6 @@
 # temporal-graph-gen
 
-Pre-trained model and supporting scripts for [Neural Language Modeling for Contextualized Temporal Graph Generation](https://arxiv.org/abs/2010.10077)
+Pre-trained model and supporting scripts for [Neural Language Modeling for Contextualized Temporal Graph Generation](https://www.aclweb.org/anthology/2021.naacl-main.67/)
 
 
 ![Temporal Graph Generation](task.png)
@@ -63,3 +63,21 @@ For example, the following script parses the output graph generated above.
 python src/temporal_graph.py data/test_output.json data/test_out.png
 ```
 ![Sample Temporal Graph ><](data/test_output.png)
+
+
+## Citation
+
+```
+@inproceedings{madaan-yang-2021-neural,
+    title = "Neural Language Modeling for Contextualized Temporal Graph Generation",
+    author = "Madaan, Aman  and
+      Yang, Yiming",
+    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.naacl-main.67",
+    pages = "864--881",
+}
+```
