@@ -70,8 +70,7 @@ python src/temporal_graph.py data/test_output.json data/test_out.png
 ```
 @inproceedings{madaan-yang-2021-neural,
     title = "Neural Language Modeling for Contextualized Temporal Graph Generation",
-    author = "Madaan, Aman  and
-      Yang, Yiming",
+    author = "Madaan, Aman  and Yang, Yiming",
     booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
     month = jun,
     year = "2021",
