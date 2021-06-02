@@ -5,11 +5,10 @@ Model and inference scripts for [this paper](https://www.aclweb.org/anthology/20
 
 <!-- ![Temporal Graph Generation](task.png) -->
 
-<p>
-<center>
-<img src="task.png" align="center" width="400" height="250" />
-</center>
+<p align="center">
+<img src="task.png" align="center" width="450" height="250" />
 </p>
+
 
 ## Outline
 
