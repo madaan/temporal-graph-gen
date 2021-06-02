@@ -79,7 +79,7 @@ The generated graphs can also be visualized using [Edotor](https://edotor.net/?e
 
 ## Temporal Node Generation
 
-We also introduce a related sub-task of temporal node generation (section 3, task 1 in the [paper](https://www.aclweb.org/anthology/2021.naacl-main.67.pdf)). The steps for using the pre-trained GPT-2 for task 1 are identical to task 2.
+We also introduce a related sub-task of temporal node generation (section 3, task 1 in the [paper](https://www.aclweb.org/anthology/2021.naacl-main.67.pdf)).
 
 1. Download the fine-tuned model [here](https://drive.google.com/file/d/1_uBXr2bh8UVH3tlaSMnTLr0jzenorPZx/view?usp=sharing) (or you can `gdown --id 1_uBXr2bh8UVH3tlaSMnTLr0jzenorPZx`).
 
