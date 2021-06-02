@@ -119,12 +119,10 @@ Where:
 * Generation script
 ```sh
 python src/run_generation.py --task nodegen\
-                             --model_path $CKPT\
+                             --model_path data/model-checkpoints/temporal-graph-gen/\
                              --input_path data/nodegen/test_input.jsonl\
                              --output_path data/nodegen/test_output.jsonl
 ```
-
-Where `$CKPT` points to the path to the downloaded model.
 
 * Sample output
 ```js
