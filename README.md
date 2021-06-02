@@ -1,6 +1,6 @@
 # Neural Language Modeling for Contextualized Temporal Graph Generation
 
-Model and inference scripts for [Neural Language Modeling for Contextualized Temporal Graph Generation](https://www.aclweb.org/anthology/2021.naacl-main.67/)
+Model and inference scripts for [this paper](https://www.aclweb.org/anthology/2021.naacl-main.67/)
 
 
 ![Temporal Graph Generation](task.png)
