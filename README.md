@@ -3,7 +3,11 @@
 Model and inference scripts for [this paper](https://www.aclweb.org/anthology/2021.naacl-main.67/)
 
 
-![Temporal Graph Generation](task.png)
+<!-- ![Temporal Graph Generation](task.png) -->
+
+<center>
+<img src="task.png" width="300" height="150" />
+</center>
 
 
 ## Outline
