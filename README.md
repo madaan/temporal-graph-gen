@@ -5,10 +5,11 @@ Model and inference scripts for [this paper](https://www.aclweb.org/anthology/20
 
 <!-- ![Temporal Graph Generation](task.png) -->
 
+<p>
 <center>
-<img src="task.png" width="300" height="150" />
+<img src="task.png" align="center" width="400" height="250" />
 </center>
-
+</p>
 
 ## Outline
 
@@ -35,12 +36,12 @@ Model and inference scripts for [this paper](https://www.aclweb.org/anthology/20
 3. Run generation using:
 ```sh
 python src/run_generation.py --task graphgen\
-                       --model-path <path-to-model-checkpoint>\
+                       --model-path <path-to-fine-tuned-model>\
                        --input-path <path-to-input-jsonl-file>\
                        --output-path <path-to-output-jsonl-file>
 ```
 Where:
-  - `path-to-model-checkpoint`: path to the pre-trained model downloaded in step 1.
+  - `path-to-fine-tuned-model`: path to the fine-tuned model downloaded in step 1.
   - `path-to-input-jsonl-file`: path to the input file prepared in step 2.
   - `path-to-output-jsonl-file`: path to the output file. The output file is identical to the input file with one additional field (`generated_graph`).
 
@@ -102,12 +103,12 @@ Where `question` is the query string (see section 3 for details or the example b
 3. Run generation using:
 ```sh
 python src/run_generation.py --task nodegen\
-                       --model-path <path-to-model-checkpoint>\
+                       --model-path <path-to-fine-tuned-model>\
                        --input-path <path-to-input-jsonl-file>\
                        --output-path <path-to-output-jsonl-file>
 ```
 Where:
-  - `path-to-model-checkpoint`: path to the pre-trained model downloaded in step 1.
+  - `path-to-fine-tuned-model`: path to the fine-tuned model downloaded in step 1.
   - `path-to-input-jsonl-file`: path to the input file prepared in step 2.
   - `path-to-output-jsonl-file`: path to the output file. The output file contains a temporal graph corresponding to each line of text in the input.
 
